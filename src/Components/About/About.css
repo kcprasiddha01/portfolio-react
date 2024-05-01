@@ -98,7 +98,7 @@
 }
 @media(max-width){
     .about{
-        gap:80px;
+        gap:70px;
         margin: 50px 70px;
         align-items: start;
     }
@@ -112,6 +112,10 @@
     }
     .about-sections{
         flex-direction: column;
+    }
+    .about-right{
+        align-items: start;
+        margin: 0;
     }
     .about-left{
         display: none;
