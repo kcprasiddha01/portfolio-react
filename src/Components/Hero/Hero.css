@@ -43,13 +43,15 @@
 .hero-connect:hover{
     border: 2px solid white;
 }
-.hero-resume{
+.hero-resume a{
+    color: white;
+    text-decoration: none;
     padding: 25px 75px;
     border-radius: 50px;
     border: 2px solid white;
     cursor: pointer;
 }
-.hero-resume:hover{
+.hero-resume a:hover{
     border-color: #B415FF;
 }
 @media(max-width:758px){
